@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    padding: 1rem 0rem;
+    position: static;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    text-align: center;
+    background-color: #1e1919;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+#home {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.divider {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-left h2 {
+    padding: 7px;
+    border: 2px dotted #3d2514;
+    display: inline-block;
+}
+
+.home-left h3 {
+    position: relative;
+    bottom: 8px;
+    font-size: 2.2rem;
+}
+
+.burger-home {
+    width: 330px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.burger-home:hover {
+    transform: translateY(-15px);
+}
+
+.bottom-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-bottom-left {
+    background-image: url(images/burger1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+.home-bottom-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.home-bottom-right img {
+    margin: 25px;
+    border-radius: 10px;
+}
