@@ -267,3 +267,115 @@ footer {
 .right-footer {
     margin-right: 0px;
 }
+
+@media screen and (max-width:900px) {
+    .bottom-container {
+        flex-direction: column;
+    }
+
+    .home-bottom-left {
+        height: 420px;
+        width: 90%;
+    }
+
+    .event-item {
+        flex-direction: column;
+    }
+
+    .btn-heading {
+        width: 30%;
+    }
+
+    .event-content .event-para,
+    h2 {
+        text-align: center;
+    }
+
+    .footer-bg {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .burger-container {
+        flex-direction: column;
+    }
+
+    .one {
+        position: relative;
+        border: 2px solid #3d2514;
+        border-radius: 8px;
+        width: 60%;
+        margin: 2px;
+    }
+
+    .one::after {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: -2px;
+        width: 100%;
+        border: 2px solid #3d2514;
+        border-radius: 8px;
+    }
+
+    .one::before {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        left: -2px;
+        width: 100%;
+        border: 2px solid #3d2514;
+        border-radius: 8px;
+    }
+
+}
+
+
+@media screen and (max-width:702px) {
+    .divider {
+        flex-direction: column;
+    }
+
+    .home-bottom {
+        margin-top: 15%;
+    }
+
+    #home::before {
+        height: 90%;
+    }
+
+    .home-bottom-right img {
+        padding: 20px;
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    #event-container {
+        padding: 14px 23px;
+    }
+
+    .event-content {
+        margin: 0px;
+    }
+
+    .burger-home {
+        width: 70%;
+    }
+
+    .h-primary {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .h-secondary {
+        text-align: center;
+    }
+
+    .left-footer .color-white {
+        padding: 2px 25px;
+    }
+
+    .right-footer {
+        font-size: 16px;
+    }
+}
